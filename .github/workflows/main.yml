@@ -9,6 +9,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Run Rust Action
       id: rust_action
-      uses: IlyaSelivanov/github-workflow@v1.0.2
+      uses: IlyaSelivanov/github-workflow@v1.0.3
     - name: Print out results
       run: echo ${{ steps.rust_action.output.results }}
