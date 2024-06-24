@@ -8,6 +8,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Run Rust Action
-      uses: your-username/your-repo@v1.0.0
+      uses: IlyaSelivanov/github-workflow@v1.0.0
       with:
         example_input: 'Custom message!'
