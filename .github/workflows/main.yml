@@ -1,0 +1,10 @@
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Run Rust Action
+      uses: your-username/your-repo@v1.0.0
+      with:
+        example_input: 'Custom message!'
