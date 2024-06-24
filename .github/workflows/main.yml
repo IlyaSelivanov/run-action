@@ -11,4 +11,4 @@ jobs:
       id: rust_action
       uses: IlyaSelivanov/github-workflow@v1.0.3
     - name: Print out results
-      run: echo ${{ steps.rust_action.output.results }}
+      run: echo ${{ steps.rust_action.outputs.results }}
